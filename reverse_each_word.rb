@@ -1,6 +1,6 @@
 def reverse_each_word(string)
-   my_statements = []
-  toppings.each do |topping|
-    my_statements.r << "I love #{topping} on my burgers!"
+  reversed_words = []
+  string.each do |string|
+    reversed_words.reverse << string
   end
   my_statements
